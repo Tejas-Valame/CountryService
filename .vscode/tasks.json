@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "command":"mvn",
+            "args": ["clean", "package"]
+        },
+        {
+            "label": "Run",
+            "command":"mvn",
+            "args": ["spring-boot:run"]
+        }
+    ]
+}
